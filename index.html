@@ -9,6 +9,12 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+      <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/css/bootstrap-image-gallery.css">
+<link rel="stylesheet" href="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/css/demo.css">
+    
   <style>
       .glyphicon {
           color: white;
@@ -179,7 +185,7 @@
     <p>Sou <b>Brasileiro</b>, nasci no Rio de Janeiro em 1981, ja com um ano fui morar em São Paulo.Em 1987 fui morar na Argentina em Buenos Aires onde fiquei ate os 23 anos de vida e decidi voltar ao brasil.</p>
     <p>Meu telefone e <b>(22) 9 9255 8587</b> -também é meu Whatsapp -</p>
     <p>Moro em <b>Búzios</b> no estado do Rio de Janeiro na rua da Redonda nº15</p>
-    <p>meu correio eletronico e <b><em>maurosolovey@gmail.com</em></b></p>
+    <p>meu correio eletronico é <b><em>maurosolovey@gmail.com</em></b></p>
     </div>
     <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
@@ -270,10 +276,78 @@
            </ul>
            </div>
         <div class="col-sm-5"> 
-             <img src="fotos/azeda.jpg" class="img-responsive" style="width:70%" alt="Image"><br>
-              <img src="fotos/azeda.jpg" class="img-responsive" style="width:70%" alt="Image"><br>
+             <img src="fotos/esporte/IMG_20170327_201043159.jpg" class="img-responsive" style="width:100%" alt="Image"><br>
+              <img src="fotos/esporte/IMG_20170327_201103252.jpg" class="img-responsive" style="width:100%" alt="Image"><br>
        </div>
-<!-- Footer -->
+
+    
+    
+ 
+<div class="container col-sm-12">
+   <br> <h3>Eu e a Familia</h3>
+    <!-- The container for the list of example images -->
+    <div id="links">
+        <a data-gallery="" title="Marina alimentando Fidel" href="fotos/familia/_DSC3006.JPG">
+            <img src="fotos/familia/250x363_DSC3006.JPG">
+        </a>
+         <a data-gallery="" title="eu e meu irmão" href="fotos/familia/IMG_20170327_200646173.jpg">
+            <img src="fotos/familia/250x398_IMG_20170327_200646173.jpg">
+        </a>
+          <a data-gallery="" title="eu e minha mãe" href="fotos/familia/IMG_20170327_200626054.jpg">
+            <img src="fotos/familia/250x299_IMG_20170327_200626054.jpg">
+        </a>
+          <a data-gallery="" title="eu e meu pai" href="fotos/familia/IMG_20170327_201122931.jpg">
+            <img src="fotos/familia/250x294_IMG_20170327_201122931.jpg">
+        </a>
+          <a data-gallery="" title="eu" href="fotos/familia/IMG_20170327_200537731.jpg">
+            <img src="fotos/familia/250x297_IMG_20170327_200537731.jpg">
+        </a>
+    </div>
+    <br>
+</div>
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">×</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- Bootstrap JS is not required, but included for the responsive demo navigation and button states -->
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/js/bootstrap-image-gallery.js"></script>
+<script src="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/js/demo.js"></script>
+
+    
+    <!-- Footer -->
 <footer class="row container-fluid bg-1 text-center">
         <div class="col-xs-12">
   <p>Made By <a href="https://www.facebook.com/mauro.solovey">Mauro_Solovey</a></p> 
@@ -283,7 +357,6 @@
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
         </div>
-   
 </footer>
 </body>
     <script>
