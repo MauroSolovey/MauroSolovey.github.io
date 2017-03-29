@@ -1,0 +1,22 @@
+######################## Contador de visitas - PHP e Banco TXT ################
+
+O Objetivo do sistema é mostrar o funcionamento de salvar informações em TXT ao inves de banco de dados.
+Ele é um contador de visitas.
+
+Não vou pedir para que mantenham os copyright, sei que ninguem respeita isso, fica por conta de vocês a honestidade.
+
+Obrigado a Todos,
+Rafael Silva
+
+###################################################
+Este sistema foi desenvolvido pela RL System.
+####################################################
+
+RL System desenvolvimento de Sistemas Desktops e Web - Fale Conosco
+
+###################################
+Informações:
+email: rafael@rlsystem.com.br
+msn: rafael@rlsystem.com.br
+www.rlsystem.com.br
+###################################
